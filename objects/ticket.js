@@ -1,6 +1,9 @@
-export class Ticket{
-    constructor(id, owner) {
-        this.Id = id
-        this.Owner = owner
+module.exports = {
+    Ticket: class Ticket {
+        constructor(id, owner, date) {
+            this.Id = id
+            this.Owner = owner
+            this.Date = date
+        }
     }
 }
